@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CriminalísticaOk</title>
+    <link rel="icon" href="Static/Images/Logo-GV-PNG_1.ico">
+    <link rel="stylesheet" href="Static/styles/style.css">
+    <link rel="stylesheet" href="Static/styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <b><span>Criminalística<span class="yellow">Ok</span></span></b>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link"><b>Home</b></a></li>
+                <li><a href="#servicios" class="nav-link"><b>Services</b></a></li>
+                <li><a href="#sobre-nosotros" class="nav-link"><b>About Us</b></a></li>
+                <li><a href="#testimonios" class="nav-link"><b>Testimonials</b></a></li>
+                <li><a href="#contacto" class="nav-link"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero-wrapper">
+        <div class="hero-background"></div>
+    
+        <div class="hero-custom">
+            <div class="hero-text-blur">
+                <div class="hero-text">
+                    <h1 class="hero-title">Let's promote learning</h1>
+                    <p class="hero-subtitle">A place to learn, share and make visible the work of forensic professionals.</p>
+                </div>
+            </div>
+    
+            <div class="hero-graphic">
+                <img src="Static/Images/Logo CK.png" alt="Escudo Criminalística">
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="section-header">
+            <h2 class="blue">Our Services</h2>
+            <p class="black">Services we offer</p>
+        </div>
+        <div class="services-container">
+            <div class="service-card" data-aos="fade-up" data-service="capacitaciones">
+                <div class="service-icon">
+                    <i class="fa-solid fa-user-graduate"></i>
+                </div>
+                <h3>Training</h3>
+                <button class="btn-more">see more</button>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100" data-service="asesoramiento">
+                <div class="service-icon">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                </div>
+                <h3>Expert advice</h3>
+                <button class="btn-more">see more</button>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100" data-service="pericias">
+                <div class="service-icon">
+                    <i class="fa-solid fa-file"></i>
+                </div>
+                <h3>Expertise and accident reports</h3>
+                <button class="btn-more">see more</button>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200" data-service="art">
+                <div id="servicio1"  class="service-icon">
+                    <i class="fa-solid fa-file-contract"></i>
+                </div>
+                <h3>ART in itinere / Occupational Accident Reports</h3>
+                <button class="btn-more">see more</button>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300" data-service="analisis">
+                <div class="service-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h3>Analysis and reconstruction of the crime scene</h3>
+                <button class="btn-more">see more</button>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300" data-service="informes">
+                <div class="service-icon">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                </div>
+                <h3>Technical expert reports</h3>
+                <button class="btn-more">see more</button>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300" data-service="puntos">
+                <div id="servicio2" class="service-icon">
+                    <i class="fa-solid fa-paperclip"></i>
+                </div>
+                <h3>Expert's points</h3>
+                <button class="btn-more">see more</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modal-capacitaciones">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Training</h2>
+                <div class="modal-body">
+                    <p class="black">We offer training designed to cover all branches of criminalistics, providing updated theoretical and practical tools for students, professionals and people interested in the forensic field.</p>
+                    <!--<h3>Nuestras capacitaciones incluyen:</h3>
+                    <ul>
+                        <li class="black">Técnicas de investigación de accidentes</li>
+                        <li class="black">Normativas de seguridad vial</li>
+                        <li class="black">Prevención de accidentes laborales</li>
+                        <li class="black">Análisis de casos prácticos</li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-asesoramiento">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Expert advice - <b class="no-disponible">NOT AVAILABLE</b></h2>
+                <!--<div class="modal-body">
+                    <p>Brindamos asesoramiento especializado en materia pericial para casos legales, seguros y empresas. Nuestro equipo de expertos ofrece orientación profesional basada en años de experiencia en el campo.</p>
+                    <h3>Servicios de asesoramiento:</h3>
+                    <ul>
+                        <li>Consultoría previa a juicios</li>
+                        <li>Evaluación de informes periciales</li>
+                        <li>Asesoramiento a compañías de seguros</li>
+                        <li>Orientación en casos complejos</li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+
+        <div class="modal" id="modal-pericias">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Expertise and accident reports - <b class="no-disponible">NOT AVAILABLE</b></h2>
+                <!--<div class="modal-body">
+                    <p>Realizamos pericias e informes detallados sobre accidentes de tránsito y otros siniestros. Nuestros informes son reconocidos por su precisión, objetividad y rigor científico.</p>
+                    <h3>Características de nuestros informes:</h3>
+                    <ul>
+                        <li>Análisis de la dinámica del accidente</li>
+                        <li>Reconstrucción de la secuencia de eventos</li>
+                        <li>Determinación de velocidades y trayectorias</li>
+                        <li>Evaluación de factores contribuyentes</li>
+                        <li>Documentación fotográfica y planimétrica</li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+        
+        <div class="modal" id="modal-art">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>ART in itinere / Occupational Accident Reports - <b class="no-disponible">NOT AVAILABLE</b></h2>
+                <!--<div class="modal-body">
+                    <p>Elaboramos informes especializados para casos de accidentes laborales y accidentes in itinere para Aseguradoras de Riesgos del Trabajo (ART) y empresas.</p>
+                    <h3>Nuestros informes incluyen:</h3>
+                    <ul>
+                        <li>Análisis de las circunstancias del accidente</li>
+                        <li>Evaluación del cumplimiento de normativas de seguridad</li>
+                        <li>Determinación de causas y factores contribuyentes</li>
+                        <li>Recomendaciones para prevención futura</li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+
+        <div class="modal" id="modal-analisis">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Analysis and reconstruction of the crime scene - <b class="no-disponible">NOT AVAILABLE</b></h2>
+                <!--<div class="modal-body">
+                    <p>Realizamos un análisis exhaustivo del lugar donde ocurrió el siniestro, utilizando técnicas avanzadas de reconstrucción para determinar con precisión cómo se desarrollaron los eventos.</p>
+                    <h3>Metodología de trabajo:</h3>
+                    <ul>
+                        <li>Relevamiento detallado del lugar</li>
+                        <li>Documentación fotográfica y videográfica</li>
+                        <li>Mediciones precisas y elaboración de planos</li>
+                        <li>Análisis de huellas, rastros y evidencias físicas</li>
+                        <li>Reconstrucción virtual cuando sea necesario</li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+
+        <div class="modal" id="modal-informes">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Technical expert reports - <b class="no-disponible">NOT AVAILABLE</b></h2>
+                <!--<div class="modal-body">
+                    <p>Elaboramos informes técnicos detallados que pueden ser utilizados en procesos judiciales, administrativos o para compañías de seguros. Nuestros informes se caracterizan por su rigor técnico y claridad expositiva.</p>
+                    <h3>Tipos de informes:</h3>
+                    <ul>
+                        <li>Informes de daños materiales</li>
+                        <li>Informes de mecánica del accidente</li>
+                        <li>Informes de compatibilidad de daños</li>
+                        <li>Informes de visibilidad y percepción</li>
+                        <li>Informes de condiciones de la vía y señalización</li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+
+        <div class="modal" id="modal-puntos">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Expert's points - <b class="no-disponible">NOT AVAILABLE</b></h2>
+                <!--<div class="modal-body">
+                    <p>Asesoramos en la elaboración de puntos periciales efectivos para casos judiciales, ayudando a abogados y partes interesadas a formular las preguntas adecuadas que permitan esclarecer los hechos relevantes del caso.</p>
+                    <h3>Servicios relacionados:</h3>
+                    <ul>
+                        <li>Formulación de puntos periciales estratégicos</li>
+                        <li>Revisión de puntos periciales propuestos</li>
+                        <li>Asesoramiento para impugnaciones</li>
+                        <li>Preparación para audiencias con peritos</li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <section id="sobre-nosotros" class="about">
+        <div class="about-image-carousel" data-aos="fade-right">
+            <div class="carousel-track">
+                <img src="Static/Images/IMGCOK1.JPG" alt="Nuestro equipo">
+                <img src="Static/Images/cokHUELLA.jpg" alt="Nuestro equipo">
+                <img src="Static/Images/IMGCOKK.jpeg" alt="Nuestro equipo">
+                <img src="Static/Images/asda (2).JPG" alt="Nuestro equipo">
+                <img src="Static/Images/IMG_0262.JPG" alt="Nuestro equipo">
+                <img src="Static/Images/asda (1).JPG" alt="Nuestro equipo">
+                <img src="Static/Images/IMG_9676.PNG" alt="Nuestro equipo">
+            </div>
+        </div>
+        <div class="about-content" data-aos="fade-left">
+            <h2>About Us</h2>
+            <p>If criminalistics is your passion, this is your place. At CRIMINALÍSTICAOK, we are dedicated to sharing valuable content for forensic professionals and students. You will find updated information, key definitions, events such as congresses and trainings, and also motivational content to inspire you on your way.</p>
+            <p> Forensic science is constantly evolving, and our goal is to provide you with the tools and knowledge you need to keep growing. Join our community and keep up to date with the fascinating world of forensic science.</p>
+            <!--
+            <div class="stats-container">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="25">0</span>
+                    <span class="stat-text">Proyectos Completados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="12">0</span>
+                    <span class="stat-text">Clientes Satisfechos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="10">0</span>
+                    <span class="stat-text">Premios Ganados</span>
+            </div>-->
+        </div>
+    </section>
+
+    <section id="testimonios" class="testimonials">
+        <div class="section-header">
+            <h2>Testimonials & Reviews</h2>
+            <p>What do other crime professionals think about our work?</p>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-slide active">
+                <div class="testimonial-content">
+                    <div class="testimonial-text">
+                        <p>“As a trial lawyer, I deeply value the quality of the contents shared. They are tools that bring clarity and rigor to the analysis of expert evidence - highly recommended!”</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="Static/Images/USER.avif" alt="Cliente 1">
+                        <div class="author-info">
+                            <h4>Alejandro Saldia</h4>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <div class="testimonial-text">
+                        <p>“A serious, ethical and committed to continuous training project. The trainings exceed expectations and the didactic material is top notch.”</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="Static/Images/USER.avif" alt="Cliente 2">
+                        <div class="author-info">
+                            <h4>Thail Zuñiga</h4>
+                            <p>Juez</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <div class="testimonial-text">
+                        <p>“The online trainings offered by this team are clear, updated and extremely useful for the professional practice. The seriousness and dedication with which they work is noticeable.”</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="Static/Images/USER.avif" alt="Cliente 3">
+                        <div class="author-info">
+                            <h4>Eugenia vera</h4>
+                            <p>Abogada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h2>Contact Us!</h2>
+                <p>We are here to answer your questions and discuss how we can help you.</p>
+                <!--<div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+54 9 2645 74-6015</p>
+                </div>-->
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p class="selectable">infocriminalisticaok@gmail.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/criminal%C3%ADstica-ok-41b00b2b1/" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/criminalisticaok/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@criminalisticaok" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@Criminal%C3%ADsticaOk" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100085908181604" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="centered-contact">
+                    <a href="https://wa.me/+5492645746015?" target="_blank" class="whatsapp-button">
+                        <i class="fab fa-whatsapp"></i> Contact
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-image" data-aos="fade-left">
+                <img src="Static/Images/IMGCOK.jpeg" alt="Imagen contacto">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <b><span>CriminalísticaOk</span></b>
+                <p>Let's promote learning</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#inicio">Home</a></li>
+                        <li><a href="#servicios">Services</a></li>
+                        <li><a href="#sobre-nosotros">About Us</a></li>
+                        <li><a href="#testimonios">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#servicios">Trainings</a></li>
+                        <li><a href="#servicios">Expert advice</a></li>
+                        <li><a href="#servicios">Accident reports and expert opinions</a></li>
+                        <li><a href="#servicio1">ART in itinere / Occupational Accident Reports</a></li>
+                        <li><a href="#servicios">Scene analysis and reconstruction</a></li>
+                        <li><a href="#servicios">Technical expert reports</a></li>
+                        <li><a href="#servicio2">Expert points</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="servicio.html">Terms of Service</a></li>
+                        <li><a href="politica.html">Privacy Policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Criminalisticaok. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#inicio" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="Static/js/scripts.js"></script>
+</body>
+</html>
