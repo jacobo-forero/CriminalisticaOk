@@ -56,8 +56,8 @@
 ## 👥 Autores
 
 **CriminalisticaOk**  
-Desarrollo y diseño web por **JACOBO FORERO**  
-📧 dani.jacobof06@gmail.com <br>
+Desarrollo y diseño web por **TEDRIX**  
+📧 Ingeniera@tedrix.co <br>
 🌐 [https://criminalisticaok.com](https://criminalisticaok.com)
 
 ---
@@ -71,6 +71,6 @@ Prohibida la reproducción o redistribución sin autorización escrita.
 ---
 
 <div align="center">
-  <sub>💡 Desarrollado por Jacobo Forero</sub>
+  <sub>💡 Desarrollado por Tedrix</sub>
 </div>
 
